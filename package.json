@@ -1,7 +1,7 @@
 {
   "name": "screen-capture",
   "productName": "screen-capture",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My Electron application description",
   "main": "src/index.js",
   "scripts": {
@@ -16,6 +16,7 @@
   "license": "MIT",
   "config": {
     "forge": {
+
       "packagerConfig": {},
       "makers": [
         {

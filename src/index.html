@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="UTF-8" />
-    <title>Hello World!</title>
-    <link 
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8" />
+    <title>Screen Capture</title>
+    <!-- <link 
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css"
-    />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Slab">
-    
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    /> -->
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Sans&family=Roboto+Slab"> -->
+
+    <link rel="stylesheet" href="bulma.min.css" />
     <link rel="stylesheet" href="index.css" />
     
 
@@ -16,12 +17,13 @@
   </head>
   <body class="content">
 
-    <h1>🎥 Screen Capture using Electron ⚡ </h1>
+    <h1>🎥 Screen Capture by Arunabh Kashyap ⚡ </h1>
 
-    <video></video>
-
-    <button id="startBtn" class="button is-primary">Start</button>
-    <button id="stopBtn" class="button is-warning">Stop</button>
+    <div class="container">
+      <button id="startBtn" class="button is-primary grid-item1">Start</button>
+      <button id="stopBtn" class="button is-warning grid-item2">Stop</button>
+      <video class="grid-item3"></video>
+    </div>
 
     <hr />
 
